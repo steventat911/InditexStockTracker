@@ -252,6 +252,14 @@ def main():
     # Telegram setup
     telegram_enabled, bot_api, chat_id = setup_telegram()
     
+    # Send startup notification
+    if telegram_enabled:
+        send_telegram_message(
+            "✅ Zara Tracker đã khởi động thành công!",
+            bot_api,
+            chat_id
+        )
+    
     # Chrome driver setup
     driver = setup_chrome_driver()
     if not driver:
