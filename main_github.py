@@ -203,10 +203,10 @@ def check_single_item(driver, item, telegram_enabled, bot_api, chat_id, config):
             
             auto_remove_msg = "🗑️ Ürün takip listesinden çıkarıldı" if removed else "⚠️ Manuel listeden çıkarmanız gerekiyor"
             
-            message = f"🛍️ <b>STOK BULUNDU!</b>\n\n" \
-                     f"👤 Kişi: <b>{person}</b>\n" \
-                     f"📏 Beden: <b>{size_in_stock}</b>\n" \
-                     f"🏪 Mağaza: <b>{store.upper()}</b>\n" \
+            message = f"🛍️ <b>STOCK FOUND!</b>\n\n" \
+                     f"👤 PERSON: <b>{person}</b>\n" \
+                     f"📏 SIZE: <b>{size_in_stock}</b>\n" \
+                     f"🏪 BRAND: <b>{store.upper()}</b>\n" \
                      f"🔗 <a href='{url}'>Ürün Linki</a>\n" \
                      f"⏰ Zaman: {time.strftime('%H:%M:%S')}\n\n" \
                      f"{auto_remove_msg}"
