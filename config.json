@@ -31,6 +31,12 @@
         "M"
       ],
       "person": "AO SO MI"
+    },
+    {
+      "store": "zara",
+      "url": "https://www.zara.com/vn/vi/ao-khoac-dang-rong-vai-wash-co-tui-p06987400.html?v1=495680353",
+      "sizes": ["M"],
+      "person": "AO KHOAC DANG RONG"
     }
   ],
   "sleep_min_seconds": 60,
