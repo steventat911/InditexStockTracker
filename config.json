@@ -3,9 +3,13 @@
     {
       "store": "zara",
       "url": "https://www.zara.com/vn/vi/ao-len-pha-soi-len-thuong-va-len-cashmere-aaron-levine-x-zara-p04696390.html?v1=504899168",
-      "sizes": [
-        "L"
-      ],
+      "sizes": ["L"],
+      "person": "Vinh"
+    }, 
+    {
+      "store": "zara",
+      "url": "https://www.zara.com/vn/vi/ao-khoac-dang-rong-vai-wash-co-tui-p06987400.html?v1=495680353",
+      "sizes": ["M"],
       "person": "Vinh"
     }
   ],
