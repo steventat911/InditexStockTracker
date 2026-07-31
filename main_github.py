@@ -201,14 +201,14 @@ def check_single_item(driver, item, telegram_enabled, bot_api, chat_id, config):
             # Ürünü config'den çıkar (sürekli bildirim gelmesin)
             removed = remove_item_from_config(config, item)
             
-            auto_remove_msg = "🗑️ Ürün takip listesinden çıkarıldı" if removed else "⚠️ Manuel listeden çıkarmanız gerekiyor"
+            auto_remove_msg = "🗑️ Automatically removed from tracking list." if removed else "⚠️ Please remove this item from the tracking list manually."
             
             message = f"🛍️ <b>STOCK FOUND!</b>\n\n" \
                      f"👤 PERSON: <b>{person}</b>\n" \
                      f"📏 SIZE: <b>{size_in_stock}</b>\n" \
                      f"🏪 BRAND: <b>{store.upper()}</b>\n" \
-                     f"🔗 <a href='{url}'>Ürün Linki</a>\n" \
-                     f"⏰ Zaman: {time.strftime('%H:%M:%S')}\n\n" \
+                     f"🔗 <a href='{url}'>PRODUCT LINK</a>\n" \
+                     f"⏰ TIME: {time.strftime('%H:%M:%S')}\n\n" \
                      f"{auto_remove_msg}"
             
             print(f"🎉 STOCK FOUND: {size_in_stock} - {store.upper()}")
