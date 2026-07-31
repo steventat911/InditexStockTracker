@@ -255,7 +255,7 @@ def main():
     # Send startup notification
     if telegram_enabled:
         send_telegram_message(
-            "✅ Zara Tracker đã khởi động thành công!",
+            "✅ Github Zara Tracker đã khởi động thành công!",
             bot_api,
             chat_id
         )
