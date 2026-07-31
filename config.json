@@ -4,13 +4,31 @@
       "store": "zara",
       "url": "https://www.zara.com/vn/vi/ao-len-pha-soi-len-thuong-va-len-cashmere-aaron-levine-x-zara-p04696390.html?v1=504899168",
       "sizes": ["L"],
-      "person": "Vinh"
+      "person": "AO LEN AARONE LEVINE"
     }, 
     {
       "store": "zara",
       "url": "https://www.zara.com/vn/vi/ao-khoac-dang-rong-vai-wash-co-tui-p06987400.html?v1=495680353",
       "sizes": ["M"],
-      "person": "Vinh"
+      "person": "AO KHOAC DANG RONG"
+    }, 
+    {
+      "store": "zara",
+      "url": "https://www.zara.com/vn/vi/quan-jeans-dang-%C4%91ung-ankle-fit-p05585423.html?v1=513066228",
+      "sizes": ["40"],
+      "person": "JEANS"
+    }, 
+    {
+      "store": "zara",
+      "url": "https://www.zara.com/vn/vi/that-lung-da-chan-chi-noi-aaron-levine-x-zara-p06399312.html?v1=504903394",
+      "sizes": ["85"],
+      "person": "THAT LUNG"
+    }, 
+    {
+      "store": "zara",
+      "url": "https://www.zara.com/vn/vi/ao-so-mi-vai-da-ke-soc-aaron-levine-x-zara-p05679102.html?v1=502976904",
+      "sizes": ["M"],
+      "person": "AO SO MI"
     }
   ],
   "sleep_min_seconds": 60,
