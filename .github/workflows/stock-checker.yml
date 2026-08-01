@@ -4,6 +4,8 @@ on:
   # Sadece manuel tetikleme aktif - otomatik çalışma devre dışı
   workflow_dispatch:
 
+schedule:
+    - cron: "*/5 * * * *"
 jobs:
   super-fast-stock-check:
     runs-on: ubuntu-latest
