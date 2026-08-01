@@ -4,7 +4,7 @@ on:
   # Sadece manuel tetikleme aktif - otomatik çalışma devre dışı
   workflow_dispatch:
 
-schedule:
+  schedule:
     - cron: "*/5 * * * *"
 jobs:
   super-fast-stock-check:
